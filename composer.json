@@ -1,0 +1,17 @@
+{
+	"name": "avarda/markup-shipping-suite-compatible",
+	"description": "Compatibility module for Markup Shipping Suite to Avarda Checkout3",
+	"type": "magento2-module",
+	"version": "1.0.0",
+	"require": {
+		"magento/framework": "*"
+	},
+	"autoload": {
+		"files": [
+			"registration.php"
+		],
+		"psr-4": {
+			"Avarda\\MarkupShippingSuiteCompatible\\": ""
+		}
+	}
+}
